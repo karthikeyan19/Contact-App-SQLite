@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="add_contact">Add</string>
+    <string name="update_contact">Update</string>
+    <string name="delete_contact">Delete</string>
+    <string name="enter_name">Enter the Name</string>
+</resources>

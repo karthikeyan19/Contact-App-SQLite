@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:layout_margin="8dp"
+        >
+
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/enter_name"
+
+                />
+
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:id="@+id/edit_text_name"
+                style="@style/editText"
+                />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Select type"
+                />
+        <Spinner android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/spinner_type"
+                />
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Enter the Mobno"
+
+                />
+
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/edit_text_mob"
+                  style="@style/editText"
+                  android:inputType="phone"
+                />
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Enter the phone no"
+
+                />
+
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/edit_text_phone"
+                  android:inputType="phone"
+                  style="@style/editText"
+                />
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Enter the Email Id"
+
+                />
+
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/edit_text_email"
+                  android:inputType="textEmailAddress"
+                  style="@style/editText"
+                />
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_add"
+                android:text="Add to Contacts"
+                android:tag="0"
+                android:layout_gravity="center_horizontal"
+                />
+</LinearLayout>

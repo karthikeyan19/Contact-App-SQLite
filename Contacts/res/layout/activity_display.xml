@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:layout_margin="8dp"
+        >
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/text_view_dname"
+              android:text="Karthik"
+              android:textSize="36sp"
+              android:drawableLeft="@drawable/ic_ic_supervisor_account_white_48dp"
+              android:textStyle="bold"
+              android:layout_centerHorizontal="true"
+            />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#50110011"
+          android:id="@+id/view_border"
+          android:layout_marginBottom="16dp"
+          android:layout_below="@id/text_view_dname"
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/view_border"
+              android:text="Mobile No: "
+              android:drawableLeft="@drawable/ic_ic_call_white_48dp"
+              android:id="@+id/text_view_label_mob"
+              android:textSize="20sp"
+              android:layout_marginBottom="16dp"
+               />
+     <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/view_border"
+               android:layout_toRightOf="@id/text_view_label_mob"
+               android:text="9688729023"
+               android:layout_marginBottom="16dp"
+               android:textSize="20sp"
+               android:id="@+id/text_view_cmob"
+             />
+      <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:id="@+id/text_view_phone_no"
+              android:text="Phone No:"
+                android:textSize="20sp"
+               android:layout_marginBottom="16dp"
+                android:drawableLeft="@drawable/ic_ic_call_end_white_48dp"
+                android:layout_below="@id/text_view_label_mob"
+              />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/text_view_cmob"
+              android:layout_toRightOf="@id/text_view_phone_no"
+              android:layout_alignBaseline="@id/text_view_phone_no"
+              android:text="9688729023"
+              android:id="@+id/text_view_dphone_no"
+              android:textSize="20sp"
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/text_view_phone_no"
+              android:text="Email       : "
+              android:drawableLeft="@drawable/ic_ic_email_white_48dp"
+              android:id="@+id/text_view_label_email"
+              android:textSize="20sp"
+              android:layout_marginBottom="16dp"
+            />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/text_view_cmob"
+              android:layout_toRightOf="@id/text_view_label_email"
+              android:layout_alignBaseline="@id/text_view_label_email"
+              android:text="karthikeyana97@gmail.com"
+              android:textSize="20sp"
+              android:id="@+id/text_view_email"
+            />
+
+</RelativeLayout>

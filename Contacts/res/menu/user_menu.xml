@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/update_contact"
+          android:id="@+id/menu_pupdate"
+          android:showAsAction="ifRoom"
+          android:icon="@android:drawable/ic_menu_edit"
+
+                      />
+    <item android:title="@string/delete_contact"
+          android:id="@+id/menu_pdelete"
+          android:showAsAction="ifRoom"
+          android:icon="@android:drawable/ic_menu_delete"
+
+            />
+
+
+</menu>
